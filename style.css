@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background :#000000;
+    
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* te lo comento porque container no tenes, lo sacas y listo */
+/* .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+} */
+
+.head {
+    /* el ancho y largo del baner lo manejas desde aca (width/heigth */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+    width: 60%;
+    min-height: 500px;
+    /* height: 100vh; */
+    margin: 0 auto;
+}
+/* contenedor o padre de la img logo */
+.log {
+    width: 100%;
+    height: 100vh;
+    
+/* logo es hijo del contenedor .log, le damos una clase a logo y le decimos q necesitamos q haga */
+}
+.logo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 250px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.relojes {
+    text-align: center;
+    margin: 4rem 0 2rem;
+}
+
+.relojes h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #66bb6a;
+}
+
+.relojes img {
+    width: 250px;
+    height: auto;
+    margin: 1rem;
+    border: 2px solid #66bb6a;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.head .relojes img:hover {
+    transform: scale(1.1);
+}
+
+
+.head .audio {
+    text-align: center;
+}
+
+.head .audio h1 {
+    font-size: 2rem;
+    margin: 4rem 0 2rem;
+    color: #66bb6a;
+}
+
+.audio img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #66bb6a;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.head .audio img:hover {
+    transform: scale(1.1);
+}
+.head .log {
+    display: flex;
+    align-items: stretch;
+}
+
+footer {
+    color: green;
+    text-align: center;
+    padding: 20px;
+    margin: 4rem 0 2rem;
+}
+
+footer h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #66bb6a;
+}
+
+footer img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #66bb6a;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
